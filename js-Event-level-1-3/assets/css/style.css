@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-color: lightgreen;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1rem; 
+  margin: 1rem;
+}
