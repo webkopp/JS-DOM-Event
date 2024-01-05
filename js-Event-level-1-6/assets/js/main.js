@@ -3,3 +3,13 @@
 // - Schreibe eine Funktion, die im Paragraph den Text anpasst, nachdem du ein Element aus der Liste ausgewählt hast.
 // - Nutze: event.target.value, addEventListener("change", (event) => {...} ) und innerHTML oder textContent.
 
+const selection = document.querySelector("#select")
+const output = document.querySelector(".output")
+selection.addEventListener("change", () => {
+    if (selection.value !== ""){
+
+        output.innerHTML = "Du hast " + selection.value + " gewählt"
+    }else {
+        output.innerHTML = "Du musst erst wählen"
+    }
+})
